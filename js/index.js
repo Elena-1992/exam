@@ -126,7 +126,7 @@ function Shop(products){
 let fillShop = function(){
     let result = []
     for(let i=0; i < 10; i++){
-        result.push(new Product("lorem"+ i, "lorem"+ i, getRandomInt(100, 105), getRandomInt(1, 207), "lorem"+ i ))
+        result.push(new Product("Lenovo"+ i, "ноутбуки"+ i, "Lenovo Y580" + i, getRandomInt(1, 500) + "y.e", "lorem"+ i ))
     }
     console.log(result);
     return result
